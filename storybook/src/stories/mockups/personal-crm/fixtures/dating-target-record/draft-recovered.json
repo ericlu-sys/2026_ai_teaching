@@ -1,0 +1,84 @@
+{
+  "targets": [
+    {
+      "id": "target-001",
+      "name": "小晴",
+      "tags": ["攝影", "咖啡", "展覽"],
+      "aiSummary": "已從草稿回復待送出內容。",
+      "dateCount": 2,
+      "averageScore": 4.5,
+      "createdAt": "2026-04-18T10:00:00.000Z",
+      "updatedAt": "2026-04-24T09:30:00.000Z"
+    }
+  ],
+  "selectedTargetId": "target-001",
+  "interactionLogs": [
+    {
+      "id": "log-003",
+      "targetId": "target-001",
+      "type": "chat",
+      "rawText": "草稿：她提到週日較方便，偏好安靜行程。",
+      "createdAt": "2026-04-24T08:30:00.000Z"
+    }
+  ],
+  "draft": {
+    "targetId": "target-001",
+    "targetForm": {
+      "name": "小晴",
+      "tags": ["攝影", "咖啡", "展覽"]
+    },
+    "parseInput": "草稿：她提到週日較方便，偏好安靜行程。",
+    "suggestionInput": "這週末打算安排展覽加咖啡，並在最後保留散步與彈性休息時間，避免行程過滿。",
+    "recoveredAt": "2026-04-24T09:55:00.000Z"
+  },
+  "uiState": {
+    "loading": {
+      "list": false,
+      "filters": false,
+      "detail": false,
+      "modalSaving": false,
+      "parsing": false,
+      "generatingSuggestion": false
+    },
+    "error": {},
+    "modal": {
+      "createOpen": true,
+      "editOpen": false
+    }
+  }
+}
+{
+  "targets": [
+    {
+      "id": "t1",
+      "name": "小安",
+      "tags": ["咖啡", "展覽"],
+      "dateCount": 3,
+      "updatedAt": "2026-04-24 09:30"
+    }
+  ],
+  "selectedTargetId": "t1",
+  "interactionLogs": [
+    "草稿回復後可繼續補寫。"
+  ],
+  "aiProfile": {
+    "summary": "目前回復為待確認草稿內容。",
+    "tags": ["待確認", "草稿中"]
+  },
+  "suggestion": null,
+  "draft": {
+    "recovered": true,
+    "targetName": "小安（草稿）",
+    "parseInput": "昨天聊天她提到最近想看展，也說週末下午比較有空。",
+    "suggestionInput": "我想安排一個不會太趕、可以多聊天的半日約會。她喜歡看展與咖啡店，且偏好白天時段，希望行程有主線但保留彈性，避免她有壓力。"
+  },
+  "uiState": {
+    "isLoadingTargets": false,
+    "listError": null,
+    "parseLoading": false,
+    "parseError": null,
+    "suggestionLoading": false,
+    "suggestionError": null,
+    "modalSaving": false
+  }
+}

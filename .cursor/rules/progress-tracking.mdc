@@ -1,0 +1,35 @@
+---
+description: Keep dating-app feature progress visible and up to date
+alwaysApply: true
+---
+
+# Feature Progress Tracking Rule
+
+## Primary Progress Source
+
+- Store feature progress files under `docs/features/progress/`.
+- Use one progress file per feature, named as `<feature-name>.md` (example: `dating-app.md`).
+- Treat the feature progress file as the single source of truth.
+- Before implementation, quickly check the progress file and identify:
+  - current in-progress track / module / section
+  - completed tasks
+  - next must-pass story or acceptance item
+
+## Update Discipline
+
+- After every small completed task, update the matching file under `docs/features/progress/` in the same session.
+- Mark tasks with clear checkbox status (`[ ]` / `[x]`) and keep wording specific.
+- If scope changes, add/adjust tasks first, then continue coding.
+
+## Student-Facing Progress Output
+
+- In each substantial reply, include:
+  - what was finished this step
+  - what remains next
+  - which active workstream is in progress (for example: `SEC-*`, `API-*`, `DATA-*`, `TEST-*`, `OPS-*`, or custom labels)
+- When blocked, explicitly state blocker + required input.
+
+## State Matrix Enforcement
+
+- Any UI work must map to `loading / empty / error / success` states.
+- Do not mark a section done until its state matrix coverage is reflected in `todo.md`.

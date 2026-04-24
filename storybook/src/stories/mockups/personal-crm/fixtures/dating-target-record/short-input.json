@@ -1,0 +1,66 @@
+{
+  "targets": [
+    {
+      "id": "target-001",
+      "name": "小晴",
+      "tags": ["攝影", "咖啡", "展覽"],
+      "aiSummary": "建議安排慢節奏雙段行程。",
+      "dateCount": 2,
+      "averageScore": 4.5,
+      "createdAt": "2026-04-18T10:00:00.000Z",
+      "updatedAt": "2026-04-24T09:30:00.000Z"
+    }
+  ],
+  "selectedTargetId": "target-001",
+  "interactionLogs": [],
+  "draft": {
+    "targetId": "target-001",
+    "suggestionInput": "週末想見面",
+    "recoveredAt": "2026-04-24T09:50:00.000Z"
+  },
+  "uiState": {
+    "loading": {
+      "list": false,
+      "filters": false,
+      "detail": false,
+      "modalSaving": false,
+      "parsing": false,
+      "generatingSuggestion": false
+    },
+    "error": {
+      "suggestion": "E_SUGGEST_001：字數不足，請至少輸入 50 字"
+    },
+    "modal": {
+      "createOpen": false,
+      "editOpen": false
+    }
+  }
+}
+{
+  "targets": [
+    {
+      "id": "t1",
+      "name": "小安",
+      "tags": ["咖啡", "展覽"],
+      "dateCount": 3,
+      "updatedAt": "2026-04-24 09:30"
+    }
+  ],
+  "selectedTargetId": "t1",
+  "interactionLogs": [],
+  "aiProfile": {
+    "summary": "可正常顯示對象摘要。",
+    "tags": ["慢步調", "文藝"]
+  },
+  "suggestion": null,
+  "draft": null,
+  "uiState": {
+    "isLoadingTargets": false,
+    "listError": null,
+    "parseLoading": false,
+    "parseError": null,
+    "suggestionLoading": false,
+    "suggestionError": "字數不足，請至少輸入 50 字情境",
+    "modalSaving": false
+  }
+}

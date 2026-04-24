@@ -1,0 +1,36 @@
+{
+  "targets": [],
+  "interactionLogs": [],
+  "uiState": {
+    "loading": {
+      "list": false,
+      "filters": false,
+      "detail": false,
+      "modalSaving": false,
+      "parsing": false,
+      "generatingSuggestion": false
+    },
+    "error": {},
+    "modal": {
+      "createOpen": false,
+      "editOpen": false
+    }
+  }
+}
+{
+  "targets": [],
+  "selectedTargetId": null,
+  "interactionLogs": [],
+  "aiProfile": null,
+  "suggestion": null,
+  "draft": null,
+  "uiState": {
+    "isLoadingTargets": false,
+    "listError": null,
+    "parseLoading": false,
+    "parseError": null,
+    "suggestionLoading": false,
+    "suggestionError": null,
+    "modalSaving": false
+  }
+}

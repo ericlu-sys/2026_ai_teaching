@@ -1,0 +1,118 @@
+{
+  "targets": [
+    {
+      "id": "target-001",
+      "name": "小晴",
+      "note": "喜歡安靜咖啡廳與展覽行程",
+      "tags": ["攝影", "咖啡", "展覽"],
+      "aiSummary": "最近互動穩定，建議提前確認時段並安排慢節奏約會。",
+      "dateCount": 2,
+      "averageScore": 4.5,
+      "createdAt": "2026-04-18T10:00:00.000Z",
+      "updatedAt": "2026-04-24T09:30:00.000Z"
+    },
+    {
+      "id": "target-002",
+      "name": "Mina",
+      "note": "喜歡電影與甜點",
+      "tags": ["電影", "甜點"],
+      "aiSummary": "初次互動正向，偏好輕鬆聊天氛圍。",
+      "dateCount": 1,
+      "averageScore": 4,
+      "createdAt": "2026-04-20T11:00:00.000Z",
+      "updatedAt": "2026-04-23T19:20:00.000Z"
+    }
+  ],
+  "selectedTargetId": "target-001",
+  "interactionLogs": [
+    {
+      "id": "log-001",
+      "targetId": "target-001",
+      "type": "chat",
+      "rawText": "她說周末想先看展覽，再去安靜咖啡店聊聊。",
+      "score": 4,
+      "createdAt": "2026-04-23T18:00:00.000Z"
+    }
+  ],
+  "aiProfile": {
+    "targetId": "target-001",
+    "extractedPreferences": ["展覽", "安靜咖啡廳", "彈性安排"],
+    "personalityTraits": ["重視節奏", "偏好深度聊天"],
+    "summary": "偏好行程有彈性，建議避免過度緊湊安排。",
+    "sourceLogIds": ["log-001"],
+    "updatedAt": "2026-04-24T09:35:00.000Z"
+  },
+  "suggestion": {
+    "targetId": "target-001",
+    "inputContext": "這週末希望安排展覽加咖啡的輕鬆約會，並保留散步與休息時間。",
+    "suggestions": [
+      {
+        "title": "雙段式輕節奏安排",
+        "reason": "先展覽再咖啡，符合她偏好的互動節奏。"
+      },
+      {
+        "title": "預留 30 分鐘彈性",
+        "reason": "避免行程過滿，提升互動品質。"
+      }
+    ],
+    "generatedAt": "2026-04-24T09:40:00.000Z"
+  },
+  "uiState": {
+    "loading": {
+      "list": false,
+      "filters": false,
+      "detail": false,
+      "modalSaving": false,
+      "parsing": false,
+      "generatingSuggestion": false
+    },
+    "error": {},
+    "modal": {
+      "createOpen": false,
+      "editOpen": false
+    }
+  }
+}
+{
+  "targets": [
+    {
+      "id": "t1",
+      "name": "小安",
+      "tags": ["咖啡", "展覽"],
+      "dateCount": 3,
+      "updatedAt": "2026-04-24 09:30"
+    },
+    {
+      "id": "t2",
+      "name": "Mina",
+      "tags": ["電影", "甜點"],
+      "dateCount": 1,
+      "updatedAt": "2026-04-23 20:10"
+    }
+  ],
+  "selectedTargetId": "t1",
+  "interactionLogs": [
+    "上次聊天回覆速度快，偏好周末白天見面。",
+    "對展覽與咖啡店有高度興趣。"
+  ],
+  "aiProfile": {
+    "summary": "偏好文藝與輕鬆聊天情境，對行程安排敏感度高。",
+    "tags": ["慢步調", "文藝", "重視細節"]
+  },
+  "suggestion": {
+    "suggestions": [
+      "先約在安靜咖啡店暖場 40 分鐘，再轉往小型展覽，避免行程過滿。",
+      "結尾保留彈性散步時間，讓對話自然延伸，降低安排壓力。"
+    ]
+  },
+  "draft": null,
+  "uiState": {
+    "isLoadingTargets": false,
+    "listError": null,
+    "parseLoading": false,
+    "parseError": null,
+    "suggestionLoading": false,
+    "suggestionError": null,
+    "modalSaving": false
+  }
+}

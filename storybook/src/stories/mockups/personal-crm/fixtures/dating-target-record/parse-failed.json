@@ -1,0 +1,79 @@
+{
+  "targets": [
+    {
+      "id": "target-001",
+      "name": "小晴",
+      "tags": ["攝影", "咖啡", "展覽"],
+      "aiSummary": "偏好安靜咖啡廳與展覽行程。",
+      "dateCount": 2,
+      "averageScore": 4,
+      "createdAt": "2026-04-18T10:00:00.000Z",
+      "updatedAt": "2026-04-24T09:30:00.000Z"
+    }
+  ],
+  "selectedTargetId": "target-001",
+  "interactionLogs": [
+    {
+      "id": "log-002",
+      "targetId": "target-001",
+      "type": "chat",
+      "rawText": "她最近比較忙，喜歡提早約好時間。",
+      "createdAt": "2026-04-24T08:10:00.000Z"
+    }
+  ],
+  "aiProfile": {
+    "targetId": "target-001",
+    "extractedPreferences": ["展覽", "咖啡"],
+    "personalityTraits": ["重視時間安排"],
+    "summary": "保留上次成功解析結果，避免本次失敗覆蓋。",
+    "sourceLogIds": ["log-002"],
+    "updatedAt": "2026-04-24T08:15:00.000Z"
+  },
+  "uiState": {
+    "loading": {
+      "list": false,
+      "filters": false,
+      "detail": false,
+      "modalSaving": false,
+      "parsing": false,
+      "generatingSuggestion": false
+    },
+    "error": {
+      "parsing": "E_PARSE_001：解析失敗，請改貼可辨識內容"
+    },
+    "modal": {
+      "createOpen": false,
+      "editOpen": false
+    }
+  }
+}
+{
+  "targets": [
+    {
+      "id": "t1",
+      "name": "小安",
+      "tags": ["咖啡", "展覽"],
+      "dateCount": 3,
+      "updatedAt": "2026-04-24 09:30"
+    }
+  ],
+  "selectedTargetId": "t1",
+  "interactionLogs": [
+    "上次聊天回覆速度快，偏好周末白天見面。"
+  ],
+  "aiProfile": {
+    "summary": "先前解析成功資料仍保留。",
+    "tags": ["慢步調", "文藝"]
+  },
+  "suggestion": null,
+  "draft": null,
+  "uiState": {
+    "isLoadingTargets": false,
+    "listError": null,
+    "parseLoading": false,
+    "parseError": "E_PARSE_001：解析失敗，請提供可辨識對話內容",
+    "suggestionLoading": false,
+    "suggestionError": null,
+    "modalSaving": false
+  }
+}
